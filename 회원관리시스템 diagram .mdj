@@ -4021,7 +4021,7 @@
 																	},
 																	"font": "Arial;13;0",
 																	"left": 208.72998046875,
-																	"top": 245,
+																	"top": 197,
 																	"width": 94.93896484375,
 																	"height": 13,
 																	"text": "company sign in"
@@ -4034,7 +4034,7 @@
 																	},
 																	"font": "Arial;13;1",
 																	"left": 189,
-																	"top": 245,
+																	"top": 197,
 																	"width": 14.72998046875,
 																	"height": 13,
 																	"text": "sd"
@@ -4042,7 +4042,7 @@
 															],
 															"font": "Arial;13;0",
 															"left": 184,
-															"top": 240,
+															"top": 192,
 															"width": 921,
 															"height": 529,
 															"nameLabel": {
@@ -4197,7 +4197,7 @@
 																			"top": 383,
 																			"width": 207,
 																			"height": 13,
-																			"text": "CompanySignInUI"
+																			"text": ":CompanySignInUI"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -4533,7 +4533,7 @@
 																			"top": 383,
 																			"width": 207,
 																			"height": 13,
-																			"text": "CompanySignIn"
+																			"text": ":CompanySignIn"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -5415,13 +5415,13 @@
 																		"$ref": "AAAAAAGH/9yOtPHbZDs="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 691.8955078125,
+																	"left": 689.372314453125,
 																	"top": 440,
-																	"width": 93.208984375,
+																	"width": 98.25537109375,
 																	"height": 13,
 																	"alpha": -1.8018864366136713,
 																	"distance": 17.46424919657298,
-																	"text": "1 : startinterface"
+																	"text": "1: startinterface()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -5734,13 +5734,13 @@
 																		"$ref": "AAAAAAGH/92E7v8TPtA="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 326.675048828125,
+																	"left": 315.833251953125,
 																	"top": 393,
-																	"width": 107.64990234375,
+																	"width": 129.33349609375,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "2 : createNewUser"
+																	"text": "2: createNewUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -6053,13 +6053,13 @@
 																		"$ref": "AAAAAAGH/99oyx8/wJM="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 696.8955078125,
-																	"top": 393,
-																	"width": 93.208984375,
+																	"left": 687.859619140625,
+																	"top": 392,
+																	"width": 111.28076171875,
 																	"height": 13,
-																	"alpha": 1.5707963267948966,
-																	"distance": 10,
-																	"text": "3 : addNewUser"
+																	"alpha": 1.5707954177039876,
+																	"distance": 11,
+																	"text": "2.1: addNewUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -6372,13 +6372,13 @@
 																		"$ref": "AAAAAAGH/+IIoHtl1LY="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 846.977783203125,
-																	"top": 515,
-																	"width": 78.04443359375,
+																	"left": 849.575927734375,
+																	"top": 512,
+																	"width": 88.84814453125,
 																	"height": 13,
-																	"alpha": 0,
-																	"distance": 48,
-																	"text": "4 : ComUser"
+																	"alpha": 0.053520258920366104,
+																	"distance": 56.08029957123981,
+																	"text": "2.2: ComUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -6436,7 +6436,9 @@
 																"$ref": "AAAAAAGH/+IIoHtppug="
 															}
 														}
-													]
+													],
+													"showSequenceNumber": false,
+													"showSignature": false
 												}
 											],
 											"messages": [
@@ -6446,7 +6448,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "startinterface",
+													"name": "1: startinterface()",
 													"source": {
 														"$ref": "AAAAAAGH/9gwCbSBXqg="
 													},
@@ -6463,13 +6465,14 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "createNewUser",
+													"name": "2: createNewUser()",
 													"source": {
 														"$ref": "AAAAAAGH/9AIHDznNVc="
 													},
 													"target": {
 														"$ref": "AAAAAAGH/9bL/K4bQfU="
 													},
+													"messageSort": "asynchSignal",
 													"connector": {
 														"$ref": "AAAAAAGH/92E7f8FXbg="
 													}
@@ -6480,7 +6483,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "addNewUser",
+													"name": "2.1: addNewUser()",
 													"source": {
 														"$ref": "AAAAAAGH/9bL/K4bQfU="
 													},
@@ -6497,7 +6500,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "ComUser",
+													"name": "2.2: ComUser()",
 													"source": {
 														"$ref": "AAAAAAGH/9gwCbSBXqg="
 													},
@@ -6528,7 +6531,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "CompanySignInUI",
+													"name": ":CompanySignInUI",
 													"represent": {
 														"$ref": "AAAAAAGH/9bL/K4avh8="
 													},
@@ -6540,7 +6543,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/8U1iDbDybU="
 													},
-													"name": "CompanySignIn",
+													"name": ":CompanySignIn",
 													"represent": {
 														"$ref": "AAAAAAGH/9gwCbSAlfk="
 													},
@@ -6691,7 +6694,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -6809,7 +6813,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -6817,7 +6822,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGH/8U1iDbCY0g="
 											},
-											"name": "Role4"
+											"name": "Role4",
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -7068,7 +7074,7 @@
 																			"top": 191,
 																			"width": 166,
 																			"height": 13,
-																			"text": "IndividualSignInUI"
+																			"text": ":IndividualSignInUI"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -7268,7 +7274,7 @@
 																			"top": 191,
 																			"width": 166,
 																			"height": 13,
-																			"text": "IndividualSignIn"
+																			"text": ":IndividualSignIn"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -8290,13 +8296,13 @@
 																		"$ref": "AAAAAAGIAJKXlBYWpNo="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 490.8955078125,
+																	"left": 488.372314453125,
 																	"top": 263,
-																	"width": 93.208984375,
+																	"width": 98.25537109375,
 																	"height": 13,
 																	"alpha": -1.5707958722494422,
 																	"distance": 22,
-																	"text": "1 : startinterface"
+																	"text": "1: startinterface()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -8609,13 +8615,13 @@
 																		"$ref": "AAAAAAGIAJUJ+zx8mQg="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 158.675048828125,
+																	"left": 156.15185546875,
 																	"top": 212,
-																	"width": 107.64990234375,
+																	"width": 112.6962890625,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "2 : createNewUser"
+																	"text": "2: createNewUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -8928,13 +8934,13 @@
 																		"$ref": "AAAAAAGIAJYJl0STjTU="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 492.3955078125,
+																	"left": 484.451416015625,
 																	"top": 212,
-																	"width": 93.208984375,
+																	"width": 109.09716796875,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "3 : addNewUser"
+																	"text": "2.1: addNewUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -9247,13 +9253,13 @@
 																		"$ref": "AAAAAAGIAJZCF0eOiwE="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 671.477783203125,
+																	"left": 666.069580078125,
 																	"top": 335,
-																	"width": 78.04443359375,
+																	"width": 88.86083984375,
 																	"height": 13,
 																	"alpha": -0.011764161765867406,
 																	"distance": 85.00588214941364,
-																	"text": "4 : IndivUser"
+																	"text": "2.2: IndivUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -9311,7 +9317,8 @@
 																"$ref": "AAAAAAGIAJZCF0eSka8="
 															}
 														}
-													]
+													],
+													"showSequenceNumber": false
 												}
 											],
 											"messages": [
@@ -9321,7 +9328,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "startinterface",
+													"name": "1: startinterface()",
 													"source": {
 														"$ref": "AAAAAAGH/+iZNtpTLpU="
 													},
@@ -9338,7 +9345,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "createNewUser",
+													"name": "2: createNewUser()",
 													"source": {
 														"$ref": "AAAAAAGH/+fwS9n7eJw="
 													},
@@ -9355,7 +9362,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "addNewUser",
+													"name": "2.1: addNewUser()",
 													"source": {
 														"$ref": "AAAAAAGH/+gXuNoYQ1g="
 													},
@@ -9372,7 +9379,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "IndivUser",
+													"name": "2.2: IndivUser()",
 													"source": {
 														"$ref": "AAAAAAGH/+iZNtpTLpU="
 													},
@@ -9403,7 +9410,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "IndividualSignInUI",
+													"name": ":IndividualSignInUI",
 													"represent": {
 														"$ref": "AAAAAAGH/+gXuNoXerw="
 													},
@@ -9427,7 +9434,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGH/+UIk6nLClw="
 													},
-													"name": "IndividualSignIn",
+													"name": ":IndividualSignIn",
 													"represent": {
 														"$ref": "AAAAAAGH/+iZNtpS28Y="
 													},
@@ -9566,7 +9573,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -9666,7 +9674,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										}
 									]
 								}
@@ -9897,7 +9906,7 @@
 																			"top": 194,
 																			"width": 190,
 																			"height": 13,
-																			"text": "WithdrawMembershipUI"
+																			"text": ":WithdrawMembershipUI"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -9996,7 +10005,7 @@
 																			"top": 431,
 																			"width": 191,
 																			"height": 13,
-																			"text": "User"
+																			"text": ":User"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -10097,7 +10106,7 @@
 																			"top": 191,
 																			"width": 191,
 																			"height": 13,
-																			"text": "WithdrawMembership"
+																			"text": ":WithdrawMembership"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -10411,13 +10420,13 @@
 																		"$ref": "AAAAAAGIAJuIEFcJGQk="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 169.615966796875,
+																	"left": 167.0927734375,
 																	"top": 208,
-																	"width": 143.76806640625,
+																	"width": 148.814453125,
 																	"height": 13,
 																	"alpha": 1.5707957385596025,
 																	"distance": 17,
-																	"text": "1 : WithdrawMembership"
+																	"text": "1: WithdrawMembership()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -10731,13 +10740,13 @@
 																		"$ref": "AAAAAAGIAJ62BWG67Hc="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 614.03369140625,
+																	"left": 606.089599609375,
 																	"top": 213,
-																	"width": 80.9326171875,
+																	"width": 96.82080078125,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "2 : deleteUser"
+																	"text": "1.1 :deleteUser()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -11056,7 +11065,7 @@
 																	"height": 13,
 																	"alpha": -0.013512689187511409,
 																	"distance": 74.00675644831355,
-																	"text": "3 : 소멸자User"
+																	"text": "1.2: ~User()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -11114,7 +11123,8 @@
 																"$ref": "AAAAAAGIAJ7+E2QSm3k="
 															}
 														}
-													]
+													],
+													"showSequenceNumber": false
 												}
 											],
 											"messages": [
@@ -11124,7 +11134,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "WithdrawMembership",
+													"name": "1: WithdrawMembership()",
 													"source": {
 														"$ref": "AAAAAAGIAJjzTVXii30="
 													},
@@ -11141,7 +11151,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "deleteUser",
+													"name": "1.1 :deleteUser()",
 													"source": {
 														"$ref": "AAAAAAGIAJkXslX/sbM="
 													},
@@ -11158,7 +11168,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "소멸자User",
+													"name": "1.2: ~User()",
 													"source": {
 														"$ref": "AAAAAAGIAJlI6lY1dNU="
 													},
@@ -11189,7 +11199,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "WithdrawMembershipUI",
+													"name": ":WithdrawMembershipUI",
 													"represent": {
 														"$ref": "AAAAAAGIAJkXslX+x4E="
 													},
@@ -11201,7 +11211,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "User",
+													"name": ":User",
 													"represent": {
 														"$ref": "AAAAAAGIAJkyQVYZvhI="
 													},
@@ -11213,7 +11223,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAJfVRFKY/Ew="
 													},
-													"name": "WithdrawMembership",
+													"name": ":WithdrawMembership",
 													"represent": {
 														"$ref": "AAAAAAGIAJlI6lY0um0="
 													},
@@ -11298,7 +11308,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -11306,7 +11317,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGIAJfVRFKXoEg="
 											},
-											"name": "Role3"
+											"name": "Role3",
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -11343,7 +11355,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										}
 									]
 								}
@@ -11575,7 +11588,7 @@
 																			"top": 366,
 																			"width": 182,
 																			"height": 13,
-																			"text": "LoginUI"
+																			"text": ":LoginUI"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -11676,7 +11689,7 @@
 																			"top": 366,
 																			"width": 182,
 																			"height": 13,
-																			"text": "Login"
+																			"text": ":Login"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -12462,13 +12475,13 @@
 																		"$ref": "AAAAAAGIAKKAq2qSEs8="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 370.524169921875,
-																	"top": 387,
-																	"width": 93.95166015625,
+																	"left": 365.0009765625,
+																	"top": 386,
+																	"width": 98.998046875,
 																	"height": 13,
-																	"alpha": 1.5707963267948966,
-																	"distance": 10,
-																	"text": "1 : loginRequest"
+																	"alpha": -4.4209331033382675,
+																	"distance": 10.44030650891055,
+																	"text": "1: loginRequest()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -12781,13 +12794,13 @@
 																		"$ref": "AAAAAAGIAKQBUW1GSIc="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 747.524169921875,
+																	"left": 739.580078125,
 																	"top": 387,
-																	"width": 93.95166015625,
+																	"width": 109.83984375,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "2 : loginRequest"
+																	"text": "1.1: loginRequest()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -12844,7 +12857,9 @@
 																"$ref": "AAAAAAGIAKQBUW1K7cU="
 															}
 														}
-													]
+													],
+													"showSequenceNumber": false,
+													"showSignature": false
 												}
 											],
 											"messages": [
@@ -12854,7 +12869,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKARP2fW8BQ="
 													},
-													"name": "loginRequest",
+													"name": "1: loginRequest()",
 													"source": {
 														"$ref": "AAAAAAGIAKEtRGh0SGU="
 													},
@@ -12871,7 +12886,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKARP2fW8BQ="
 													},
-													"name": "loginRequest",
+													"name": "1.1: loginRequest()",
 													"source": {
 														"$ref": "AAAAAAGIAKHCLGiSZL8="
 													},
@@ -12902,7 +12917,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKARP2fW8BQ="
 													},
-													"name": "LoginUI",
+													"name": ":LoginUI",
 													"represent": {
 														"$ref": "AAAAAAGIAKHCK2iRorI="
 													},
@@ -12914,7 +12929,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKARP2fW8BQ="
 													},
-													"name": "Login",
+													"name": ":Login",
 													"represent": {
 														"$ref": "AAAAAAGIAKH4vWisRdU="
 													},
@@ -13053,7 +13068,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -13061,7 +13077,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGIAKARP2fVjbQ="
 											},
-											"name": "Role3"
+											"name": "Role3",
+											"type": ""
 										}
 									]
 								}
@@ -13291,7 +13308,7 @@
 																			"top": 239,
 																			"width": 246,
 																			"height": 13,
-																			"text": "LogoutUI"
+																			"text": ":LogoutUI"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -13387,7 +13404,7 @@
 																			"top": 239,
 																			"width": 246,
 																			"height": 13,
-																			"text": "Logout"
+																			"text": ":Logout"
 																		},
 																		{
 																			"_type": "LabelView",
@@ -14171,13 +14188,13 @@
 																		"$ref": "AAAAAAGIAKYbanPG/Jc="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 236.54736328125,
+																	"left": 234.024169921875,
 																	"top": 280,
-																	"width": 101.9052734375,
+																	"width": 106.95166015625,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "1 : logoutRequest"
+																	"text": "1: logoutRequest()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -14490,13 +14507,13 @@
 																		"$ref": "AAAAAAGIAKaFSHbvKH4="
 																	},
 																	"font": "Arial;13;0",
-																	"left": 651.54736328125,
+																	"left": 643.603271484375,
 																	"top": 280,
-																	"width": 101.9052734375,
+																	"width": 117.79345703125,
 																	"height": 13,
 																	"alpha": 1.5707963267948966,
 																	"distance": 10,
-																	"text": "2 : logoutRequest"
+																	"text": "1.1: logoutRequest()"
 																},
 																{
 																	"_type": "NodeLabelView",
@@ -14553,7 +14570,8 @@
 																"$ref": "AAAAAAGIAKaFSHbzTT4="
 															}
 														}
-													]
+													],
+													"showSequenceNumber": false
 												}
 											],
 											"messages": [
@@ -14563,7 +14581,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKSoum+4EyY="
 													},
-													"name": "logoutRequest",
+													"name": "1: logoutRequest()",
 													"source": {
 														"$ref": "AAAAAAGIAKTDyHBijek="
 													},
@@ -14580,7 +14598,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKSoum+4EyY="
 													},
-													"name": "logoutRequest",
+													"name": "1.1: logoutRequest()",
 													"source": {
 														"$ref": "AAAAAAGIAKVvy3IFWwU="
 													},
@@ -14611,7 +14629,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKSoum+4EyY="
 													},
-													"name": "LogoutUI",
+													"name": ":LogoutUI",
 													"represent": {
 														"$ref": "AAAAAAGIAKVvy3IEq7o="
 													},
@@ -14623,7 +14641,7 @@
 													"_parent": {
 														"$ref": "AAAAAAGIAKSoum+4EyY="
 													},
-													"name": "Logout",
+													"name": ":Logout",
 													"represent": {
 														"$ref": "AAAAAAGIAKWcuHIgNt0="
 													},
@@ -14762,7 +14780,8 @@
 														}
 													}
 												}
-											]
+											],
+											"type": ""
 										},
 										{
 											"_type": "UMLAttribute",
@@ -14770,7 +14789,8 @@
 											"_parent": {
 												"$ref": "AAAAAAGIAKSoum+3PQs="
 											},
-											"name": "Role3"
+											"name": "Role3",
+											"type": ""
 										}
 									]
 								}
