@@ -3792,7 +3792,7 @@
 													"height": 13,
 													"alpha": -3.1207623321074442,
 													"distance": 144.03124660989366,
-													"text": "1.2.1:*[For all Recruitment]get_recruitment()"
+													"text": "1.2.1:*[For all Recruitment]get_companyID()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -3894,7 +3894,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGH/SfN4UaNPAI="
 									},
-									"name": "1.2.1:*[For all Recruitment]get_recruitment()",
+									"name": "1.2.1:*[For all Recruitment]get_companyID()",
 									"source": {
 										"$ref": "AAAAAAGH/Si9KUb7avk="
 									},
@@ -5783,7 +5783,7 @@
 													"height": 13,
 													"alpha": 0.020267493343171225,
 													"distance": 148.03040228277433,
-													"text": "1.2.1:*[For all Recruitment]get_recruitment()"
+													"text": "1.2.1:*[For all Recruitment]get_companyID()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -6381,7 +6381,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIAKk7DR4dF/E="
 									},
-									"name": "1.2.1:*[For all Recruitment]get_recruitment()",
+									"name": "1.2.1:*[For all Recruitment]get_companyID()",
 									"source": {
 										"$ref": "AAAAAAGIAKrdHSDMDZU="
 									},
@@ -8030,7 +8030,7 @@
 													"height": 13,
 													"alpha": 0.02083031859008559,
 													"distance": 144.03124660989366,
-													"text": "1.2.1:*[For all Recruitment]get_recruitment()"
+													"text": "1.2.1:*[For all Recruitment]get_companyID()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -9325,7 +9325,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIALFtLVF98FY="
 									},
-									"name": "1.2.1:*[For all Recruitment]get_recruitment()",
+									"name": "1.2.1:*[For all Recruitment]get_companyID()",
 									"source": {
 										"$ref": "AAAAAAGIALIOxFKaOF8="
 									},
@@ -9710,11 +9710,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBZkBXVt57WU="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -272,
-											"top": -192,
-											"height": 13
+											"left": 157,
+											"top": 213,
+											"width": 141.26708984375,
+											"height": 13,
+											"text": "«boundary»"
 										},
 										{
 											"_type": "LabelView",
@@ -9724,7 +9725,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 157,
-											"top": 215,
+											"top": 228,
 											"width": 141.26708984375,
 											"height": 13,
 											"text": "AddRecruitmentUI"
@@ -9761,7 +9762,7 @@
 									"left": 152,
 									"top": 208,
 									"width": 151.26708984375,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBZkBXVt6etc="
 									},
@@ -9784,11 +9785,30 @@
 									"model": {
 										"$ref": "AAAAAAGIBZkBXFt2Fcg="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIBb8rDabUEl0=",
+											"_parent": {
+												"$ref": "AAAAAAGIBZkBXVt+ZKw="
+											},
+											"model": {
+												"$ref": "AAAAAAGIBb8q/6bR5/8="
+											},
+											"font": "Arial;13;0",
+											"left": 157,
+											"top": 251,
+											"width": 141.26708984375,
+											"height": 13,
+											"text": "-*ManageRecruitment",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 152,
-									"top": 233,
+									"top": 246,
 									"width": 151.26708984375,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -9811,7 +9831,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 157,
-											"top": 248,
+											"top": 274,
 											"width": 141.26708984375,
 											"height": 13,
 											"text": "+add_new_recruitment()",
@@ -9856,7 +9876,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 152,
-									"top": 243,
+									"top": 269,
 									"width": 151.26708984375,
 									"height": 23
 								},
@@ -9941,10 +9961,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBZk4Jlunjj0="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 32,
-											"height": 13
+											"left": 381,
+											"top": 213,
+											"width": 156.45068359375,
+											"height": 13,
+											"text": "«control»"
 										},
 										{
 											"_type": "LabelView",
@@ -9954,7 +9976,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 381,
-											"top": 215,
+											"top": 228,
 											"width": 156.45068359375,
 											"height": 13,
 											"text": "ManageRecruitment"
@@ -9989,7 +10011,7 @@
 									"left": 376,
 									"top": 208,
 									"width": 166.45068359375,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBZk4JluoZkY="
 									},
@@ -10012,11 +10034,30 @@
 									"model": {
 										"$ref": "AAAAAAGIBZk4JluksB4="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIBbX45p70nj8=",
+											"_parent": {
+												"$ref": "AAAAAAGIBZk4JlusTAA="
+											},
+											"model": {
+												"$ref": "AAAAAAGIBbX42p7x7I8="
+											},
+											"font": "Arial;13;0",
+											"left": 381,
+											"top": 251,
+											"width": 156.45068359375,
+											"height": 13,
+											"text": "-Recruitment[ ]",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 376,
-									"top": 233,
+									"top": 246,
 									"width": 166.45068359375,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -10039,7 +10080,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 248,
+											"top": 274,
 											"width": 156.45068359375,
 											"height": 13,
 											"text": "+add_recruitment()",
@@ -10056,7 +10097,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 263,
+											"top": 289,
 											"width": 156.45068359375,
 											"height": 13,
 											"text": "+show_list()",
@@ -10073,7 +10114,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 278,
+											"top": 304,
 											"width": 156.45068359375,
 											"height": 13,
 											"text": "+change_the_recruitment()",
@@ -10090,7 +10131,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 381,
-											"top": 293,
+											"top": 319,
 											"width": 156.45068359375,
 											"height": 13,
 											"text": "+delete_the_recruitment()",
@@ -10099,7 +10140,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 376,
-									"top": 243,
+									"top": 269,
 									"width": 166.45068359375,
 									"height": 68
 								},
@@ -10182,11 +10223,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBZlmU1vRA0M="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
-											"top": -32,
-											"height": 13
+											"left": 613,
+											"top": 221,
+											"width": 111,
+											"height": 13,
+											"text": "«entity»"
 										},
 										{
 											"_type": "LabelView",
@@ -10195,8 +10237,8 @@
 												"$ref": "AAAAAAGIBZlmU1vRA0M="
 											},
 											"font": "Arial;13;1",
-											"left": 629,
-											"top": 239,
+											"left": 613,
+											"top": 236,
 											"width": 111,
 											"height": 13,
 											"text": "Recruitment"
@@ -10209,7 +10251,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
+											"left": 64,
 											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
@@ -10223,17 +10265,17 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 96,
+											"left": 64,
 											"top": -32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 624,
-									"top": 232,
+									"left": 608,
+									"top": 216,
 									"width": 121,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBZlmU1vSshE="
 									},
@@ -10267,8 +10309,8 @@
 												"$ref": "AAAAAAGIBa3NLJ7If8k="
 											},
 											"font": "Arial;13;0",
-											"left": 629,
-											"top": 262,
+											"left": 613,
+											"top": 259,
 											"width": 111,
 											"height": 13,
 											"text": "-task",
@@ -10284,8 +10326,8 @@
 												"$ref": "AAAAAAGIBa6Gdp7QONQ="
 											},
 											"font": "Arial;13;0",
-											"left": 629,
-											"top": 277,
+											"left": 613,
+											"top": 274,
 											"width": 111,
 											"height": 13,
 											"text": "-headcount",
@@ -10301,8 +10343,8 @@
 												"$ref": "AAAAAAGIBa8g2p7Xoao="
 											},
 											"font": "Arial;13;0",
-											"left": 629,
-											"top": 292,
+											"left": 613,
+											"top": 289,
 											"width": 111,
 											"height": 13,
 											"text": "-deadline",
@@ -10318,8 +10360,8 @@
 												"$ref": "AAAAAAGIBa91y57e3N4="
 											},
 											"font": "Arial;13;0",
-											"left": 629,
-											"top": 307,
+											"left": 613,
+											"top": 304,
 											"width": 111,
 											"height": 13,
 											"text": "-companyID",
@@ -10327,8 +10369,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 624,
-									"top": 257,
+									"left": 608,
+									"top": 254,
 									"width": 121,
 									"height": 68
 								},
@@ -10352,8 +10394,8 @@
 												"$ref": "AAAAAAGIBax4u56bI2c="
 											},
 											"font": "Arial;13;0",
-											"left": 629,
-											"top": 330,
+											"left": 613,
+											"top": 327,
 											"width": 111,
 											"height": 13,
 											"text": "+get_recruitment()",
@@ -10361,8 +10403,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 624,
-									"top": 325,
+									"left": 608,
+									"top": 322,
 									"width": 121,
 									"height": 23
 								},
@@ -10377,7 +10419,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 48,
+									"left": 32,
 									"top": -16,
 									"width": 10,
 									"height": 10
@@ -10393,7 +10435,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 48,
+									"left": 32,
 									"top": -16,
 									"width": 10,
 									"height": 10
@@ -10401,10 +10443,10 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 624,
-							"top": 232,
+							"left": 608,
+							"top": 216,
 							"width": 121,
-							"height": 169,
+							"height": 185,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBZlmU1vRA0M="
 							},
@@ -10447,11 +10489,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBZmtnlv8NB0="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -96,
-											"top": 48,
-											"height": 13
+											"left": 157,
+											"top": 405,
+											"width": 131.14892578125,
+											"height": 13,
+											"text": "«boundary»"
 										},
 										{
 											"_type": "LabelView",
@@ -10461,7 +10504,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 157,
-											"top": 407,
+											"top": 420,
 											"width": 131.14892578125,
 											"height": 13,
 											"text": "RecruitmentCheckUI"
@@ -10498,7 +10541,7 @@
 									"left": 152,
 									"top": 400,
 									"width": 141.14892578125,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBZmtnlv9xLE="
 									},
@@ -10521,11 +10564,30 @@
 									"model": {
 										"$ref": "AAAAAAGIBZmtnVv5oIA="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGIBb98i6bcGmA=",
+											"_parent": {
+												"$ref": "AAAAAAGIBZmtnlwBA7c="
+											},
+											"model": {
+												"$ref": "AAAAAAGIBb98gqbZ2R4="
+											},
+											"font": "Arial;13;0",
+											"left": 157,
+											"top": 443,
+											"width": 131.14892578125,
+											"height": 13,
+											"text": "-ManageRecruitment",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 152,
-									"top": 425,
+									"top": 438,
 									"width": 141.14892578125,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -10548,7 +10610,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 157,
-											"top": 440,
+											"top": 466,
 											"width": 131.14892578125,
 											"height": 13,
 											"text": "+show_mylist()",
@@ -10565,7 +10627,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 157,
-											"top": 455,
+											"top": 481,
 											"width": 131.14892578125,
 											"height": 13,
 											"text": "+change_recruitment()",
@@ -10582,7 +10644,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 157,
-											"top": 470,
+											"top": 496,
 											"width": 131.14892578125,
 											"height": 13,
 											"text": "+delete_recruitment()",
@@ -10591,7 +10653,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 152,
-									"top": 435,
+									"top": 461,
 									"width": 141.14892578125,
 									"height": 53
 								},
@@ -11209,6 +11271,21 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "AddRecruitmentUI",
+					"stereotype": {
+						"$ref": "AAAAAAGH/B2xdwX9uKo="
+					},
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIBb8q/6bR5/8=",
+							"_parent": {
+								"$ref": "AAAAAAGIBZkBXFt2Fcg="
+							},
+							"name": "*ManageRecruitment",
+							"visibility": "private",
+							"type": ""
+						}
+					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -11244,6 +11321,21 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "ManageRecruitment",
+					"stereotype": {
+						"$ref": "AAAAAAGH/B2xdwX6edM="
+					},
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIBbX42p7x7I8=",
+							"_parent": {
+								"$ref": "AAAAAAGIBZk4JluksB4="
+							},
+							"name": "Recruitment[ ]",
+							"visibility": "private",
+							"type": ""
+						}
+					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -11286,6 +11378,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Recruitment",
+					"stereotype": {
+						"$ref": "AAAAAAGH/B2xdgUjTwg="
+					},
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -11346,6 +11441,21 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "RecruitmentCheckUI",
+					"stereotype": {
+						"$ref": "AAAAAAGH/B2xdwX9uKo="
+					},
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGIBb98gqbZ2R4=",
+							"_parent": {
+								"$ref": "AAAAAAGIBZmtnVv5oIA="
+							},
+							"name": "ManageRecruitment",
+							"visibility": "private",
+							"type": ""
+						}
+					],
 					"operations": [
 						{
 							"_type": "UMLOperation",
