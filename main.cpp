@@ -3,6 +3,6 @@
 
 int main(){
     System mysystem = System();
-    system.run();
+    mysystem.run();
     return 0;
 }
