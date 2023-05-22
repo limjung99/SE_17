@@ -38189,6 +38189,24 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGIQYegjKeundU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Analysis다이어그램",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGIQYegjaevZmk=",
+					"_parent": {
+						"$ref": "AAAAAAGIQYegjKeundU="
+					},
+					"name": "\banalysis다이어그램"
+				}
+			]
 		}
 	]
 }
