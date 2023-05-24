@@ -7,8 +7,23 @@ Recruitment::Recruitment(string task,int headcount,string deadline,CompanyUser *
     this->companyuser = companyuser;
 }
 
-string Recruitment::getTask() {return task;}
 
-int Recruitment::getHeadCount() {return headcount;}
+Recruitment::Application(string task, int headcount, string deadline, string companyName,
+                            int businessNumber, GeneralUser* generaluser) {
+    this->task = task;
+    this->deadline = deadline;
+    this->headcount = headcount;
+    this->companyName = companyName;
+    this->businessNumber = businessNumber;
+    this->generaluser = generaluser;
+}
 
-string Recruitment::getDeadLine() {return deadline;}
+string Recruitment::getTask() { return task; }
+
+int Recruitment::getHeadCount() { return headcount; }
+
+string Recruitment::getDeadLine() { return deadline; }
+
+string Recruitment::getCompanyName() { return companyName; }
+
+int Recruitment::getBusinessNumber() { return businessNumber; }

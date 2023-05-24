@@ -1,11 +1,9 @@
 #include "GeneralUser.h"
-#include "ManageApplication.h"
-using namespace std;
+#include "../ManageApplication/ManageApplication.h"
 
 
-class ApplicationCheckUI {
-    ManageApplication* manageapplication;
+class CheckApplicationUI {
+    ManageApplication *manageapplication;
 public:
-    void startInterface();
-    void checkMyRecruitment(GeneralUser& generaluser);
+    void checkMyApplications(GeneralUser *generaluser);
 };

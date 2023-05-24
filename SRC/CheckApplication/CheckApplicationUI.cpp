@@ -1,5 +1,5 @@
 #include "CheckApplicationUI.h"
 
-void CheckApplicationUI::viewMylist(GeneralUser* generaluser) {
-    this->listapplications->listApplications(generaluser);
+void CheckApplicationUI::checkMyApplications(GeneralUser *generaluser) {
+    this->manageapplication->checkApplications(generaluser);
 }
