@@ -6,6 +6,7 @@ using namespace std;
 class Recruitment{
     private:
         CompanyUser *companyuser;
+        GeneralUser* generaluser;
         string task;
         int headcount;
         string deadline; /* "YYYY-MM-DD" */
@@ -15,7 +16,7 @@ class Recruitment{
         string getCompanyName();
         string getBusinessNum();
         string getTask();
-        int getHeadcount()
+        int getHeadcount();
         string getDeadline();
 
         void setTask(string newTask);

@@ -1,8 +1,8 @@
-#include "ApplicationCheckUI.h" // class diagram 수정 후 고치기
+#include "ACheckApplicationUI.h" // class diagram 수정 후 고치기
 using namespace std;
 
 
-class ApplicationCheckUI {
+class ManageApplication {
     ManageApplication* manageapplication;
 public:
     string startInterface();
