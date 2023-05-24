@@ -1,12 +1,15 @@
 #include "Recruitment.h"
 #include "CompanyUser.h"
+#include "../Collections/RecruitmentCollection.h"
 #include <string>
 using namespace std;
-#define Max_Length 1000
+
 
 class RecruitmentAdd{
-    Recruitment *recruitments[Max_Length];
+    /* */
+    RecruitmentCollection *recruitmentcollection;
+    CompanyUser *companyuser;
     public:
         RecruitmentAdd();
-        void addRecruitment(CompanyUser &companyuser,string task,int headcount,string deadline);
+        void addRecruitment(CompanyUser *companyuser,string task,int headcount,string deadline);
 };
