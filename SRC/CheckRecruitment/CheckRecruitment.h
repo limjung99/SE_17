@@ -1,8 +1,9 @@
-#include "Recruitment.h"
+#include "../Recruitment/Recruitment.h"
+#include "../Collections/RecruitmentCollection.h"
 
 
 class CheckRecruitment{
-    
+    RecruitmentCollection* recruitmentcollection;
     public:
-        void checkRecruitments(CompanyUser &companyuser);
+        void checkRecruitments(CompanyUser *companyuser);
 };
