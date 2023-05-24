@@ -5,6 +5,6 @@ class GeneralUser:User{
         string userName;
         int ResidentRegistrationNumber;
     public:
-        void addApplication();
+        void addApplication(Recruitment &recruitment);
 };
 

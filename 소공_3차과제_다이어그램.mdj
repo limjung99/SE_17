@@ -7056,7 +7056,7 @@
 														"$ref": "AAAAAAGINQaR/RatCrs="
 													},
 													"font": "Arial;13;0",
-													"left": 127.47998046875,
+													"left": 128.72998046875,
 													"top": 181,
 													"width": 68.469970703125,
 													"height": 13,
@@ -7071,7 +7071,7 @@
 													"font": "Arial;13;1",
 													"left": 109,
 													"top": 181,
-													"width": 13.47998046875,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -12234,13 +12234,30 @@
 											"height": 13,
 											"text": "+businessNumber",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGITSZ/5SRkUPE=",
+											"_parent": {
+												"$ref": "AAAAAAGIN1xVNh3oFqs="
+											},
+											"model": {
+												"$ref": "AAAAAAGITL1YREiQgxg="
+											},
+											"font": "Arial;13;0",
+											"left": 613,
+											"top": 526,
+											"width": 104.39990234375,
+											"height": 13,
+											"text": "+generalusercollection:GeneralUserCollection",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 446,
-									"width": 114.39990234375,
-									"height": 83
+									"width": 257.298583984375,
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -12263,7 +12280,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 613,
-											"top": 534,
+											"top": 549,
 											"width": 104.39990234375,
 											"height": 13,
 											"text": "+show_detail()",
@@ -12280,7 +12297,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 613,
-											"top": 549,
+											"top": 564,
 											"width": 104.39990234375,
 											"height": 13,
 											"text": "+listRecruitment()",
@@ -12297,7 +12314,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 613,
-											"top": 564,
+											"top": 579,
 											"width": 104.39990234375,
 											"height": 13,
 											"text": "+getRecruitment()",
@@ -12314,7 +12331,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 613,
-											"top": 579,
+											"top": 594,
 											"width": 104.39990234375,
 											"height": 13,
 											"text": "+getApplicantCount()",
@@ -12331,7 +12348,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 613,
-											"top": 594,
+											"top": 609,
 											"width": 104.39990234375,
 											"height": 13,
 											"text": "+getApplicationCount()",
@@ -12340,7 +12357,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 608,
-									"top": 529,
+									"top": 544,
 									"width": 137.02276611328125,
 									"height": 83
 								},
@@ -15397,7 +15414,7 @@
 														"$ref": "AAAAAAGIQp7jUGWBLQQ="
 													},
 													"font": "Arial;13;0",
-													"left": 127.47998046875,
+													"left": 128.72998046875,
 													"top": 197,
 													"width": 68.469970703125,
 													"height": 13,
@@ -15412,7 +15429,7 @@
 													"font": "Arial;13;1",
 													"left": 109,
 													"top": 197,
-													"width": 13.47998046875,
+													"width": 14.72998046875,
 													"height": 13,
 													"text": "sd"
 												}
@@ -17448,19 +17465,6 @@
 											}
 										},
 										{
-											"_type": "UMLTextView",
-											"_id": "AAAAAAGIQrghIJ8cZRE=",
-											"_parent": {
-												"$ref": "AAAAAAGIQp7jUGWA9wQ="
-											},
-											"font": "Arial;13;0",
-											"left": 592,
-											"top": 256,
-											"width": 241,
-											"height": 77,
-											"text": "2.2:*[For all recruitment in list] : getRecruitment()"
-										},
-										{
 											"_type": "UMLConnectorView",
 											"_id": "AAAAAAGITAaIi3yAgVI=",
 											"_parent": {
@@ -17716,13 +17720,13 @@
 														"$ref": "AAAAAAGITAaIknyLVGU="
 													},
 													"font": "Arial;13;0",
-													"left": 543.70556640625,
+													"left": 538.28466796875,
 													"top": 344,
-													"width": 279.5888671875,
+													"width": 290.4306640625,
 													"height": 13,
 													"alpha": 0.6107258077896911,
 													"distance": 36.61966684720111,
-													"text": "2.2 *[For all recruitment in list] : getRecruitment()"
+													"text": "2.1.2 *[For all recruitment in list] : getRecruitment()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -17868,7 +17872,7 @@
 									"connector": {
 										"$ref": "AAAAAAGITAaIi3x92o8="
 									},
-									"sequenceNumber": "2.2",
+									"sequenceNumber": "2.1.2",
 									"iteration": "For all recruitment in list"
 								}
 							],
@@ -29245,13 +29249,30 @@
 											"height": 13,
 											"text": "+businessNumber",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGITSaAFyTBPMI=",
+											"_parent": {
+												"$ref": "AAAAAAGIRHSo8t4XYbI="
+											},
+											"model": {
+												"$ref": "AAAAAAGITL1YREiQgxg="
+											},
+											"font": "Arial;13;0",
+											"left": 701,
+											"top": 174,
+											"width": 138.30908203125,
+											"height": 13,
+											"text": "+generalusercollection:GeneralUserCollection",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 94,
-									"width": 148.30908203125,
-									"height": 83
+									"width": 257.298583984375,
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -29274,7 +29295,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 182,
+											"top": 197,
 											"width": 138.30908203125,
 											"height": 13,
 											"text": "+show_detail()",
@@ -29291,7 +29312,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 197,
+											"top": 212,
 											"width": 138.30908203125,
 											"height": 13,
 											"text": "+listRecruitment()",
@@ -29308,7 +29329,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 212,
+											"top": 227,
 											"width": 138.30908203125,
 											"height": 13,
 											"text": "+getRecruitment()",
@@ -29325,7 +29346,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 227,
+											"top": 242,
 											"width": 138.30908203125,
 											"height": 13,
 											"text": "+getApplicantCount()",
@@ -29342,7 +29363,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 701,
-											"top": 242,
+											"top": 257,
 											"width": 138.30908203125,
 											"height": 13,
 											"text": "+getApplicationCount()",
@@ -29351,7 +29372,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 696,
-									"top": 177,
+									"top": 192,
 									"width": 148.30908203125,
 									"height": 83
 								},
@@ -30741,13 +30762,30 @@
 											"height": 13,
 											"text": "-BusinessNumber",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGITSaAHCTEi6E=",
+											"_parent": {
+												"$ref": "AAAAAAGIQLaUK31poyE="
+											},
+											"model": {
+												"$ref": "AAAAAAGITLyIwz7UL7I="
+											},
+											"font": "Arial;13;0",
+											"left": 733,
+											"top": 161,
+											"width": 215,
+											"height": 13,
+											"text": "-ownedRecruitments:RecruitmentCollection",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 728,
 									"top": 126,
-									"width": 225,
-									"height": 38
+									"width": 250.09664916992188,
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -30770,7 +30808,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 733,
-											"top": 169,
+											"top": 184,
 											"width": 215,
 											"height": 13,
 											"text": "+listRecruitment()",
@@ -30779,7 +30817,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 728,
-									"top": 164,
+									"top": 179,
 									"width": 225,
 									"height": 23
 								},
