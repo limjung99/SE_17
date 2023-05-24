@@ -18790,13 +18790,13 @@
 														"$ref": "AAAAAAGIOlRJLh/NGNo="
 													},
 													"font": "Arial;13;0",
-													"left": 141.740478515625,
+													"left": 116.445068359375,
 													"top": 86,
-													"width": 97.51904296875,
+													"width": 148.10986328125,
 													"height": 13,
 													"alpha": -4.64997079295685,
 													"distance": 16.0312195418814,
-													"text": "1 : viewMylist()"
+													"text": "1 : checkMyApplications()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -19210,13 +19210,13 @@
 														"$ref": "AAAAAAGIOlXhVyU7VmA="
 													},
 													"font": "Arial;13;0",
-													"left": 386.66455078125,
+													"left": 378.688720703125,
 													"top": 88,
-													"width": 125.6708984375,
+													"width": 141.62255859375,
 													"height": 13,
 													"alpha": 1.57079566012823,
 													"distance": 15,
-													"text": "1.1 : listApplications()"
+													"text": "1.1 : checkApplications()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -19627,13 +19627,13 @@
 														"$ref": "AAAAAAGIOlghZUCdXZs="
 													},
 													"font": "Arial;13;0",
-													"left": 643.346923828125,
+													"left": 603.810546875,
 													"top": 88,
-													"width": 176.30615234375,
+													"width": 255.37890625,
 													"height": 13,
 													"alpha": 1.5707956125091824,
 													"distance": 14,
-													"text": "*[For all Applications]: getInfo"
+													"text": "*[For all GeneralUsers' Applications]: getInfo"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -20028,7 +20028,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIOjpZ9v2zx+I="
 									},
-									"name": "viewMylist()",
+									"name": "checkMyApplications()",
 									"source": {
 										"$ref": "AAAAAAGIOlN5sB+fbnM="
 									},
@@ -20046,7 +20046,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIOjpZ9v2zx+I="
 									},
-									"name": "listApplications()",
+									"name": "checkApplications()",
 									"source": {
 										"$ref": "AAAAAAGIOk2APBYoOFw="
 									},
@@ -20064,7 +20064,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIOjpZ9v2zx+I="
 									},
-									"name": "*[For all Applications]: getInfo",
+									"name": "*[For all GeneralUsers' Applications]: getInfo",
 									"source": {
 										"$ref": "AAAAAAGIOlVn6CPU5DY="
 									},
@@ -20872,13 +20872,13 @@
 														"$ref": "AAAAAAGIOmgAvlPr0ik="
 													},
 													"font": "Arial;13;0",
-													"left": 130.740478515625,
+													"left": 105.445068359375,
 													"top": 88,
-													"width": 97.51904296875,
+													"width": 148.10986328125,
 													"height": 13,
 													"alpha": 1.57079566012823,
 													"distance": 15,
-													"text": "1 : viewMylist()"
+													"text": "1 : checkMyApplications()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -21289,13 +21289,13 @@
 														"$ref": "AAAAAAGIOmlBt1sbsXg="
 													},
 													"font": "Arial;13;0",
-													"left": 378.66455078125,
+													"left": 370.688720703125,
 													"top": 88,
-													"width": 125.6708984375,
+													"width": 141.62255859375,
 													"height": 13,
 													"alpha": 1.5707956125091824,
 													"distance": 14,
-													"text": "1.1 : listApplications()"
+													"text": "1.1 : checkApplications()"
 												},
 												{
 													"_type": "NodeLabelView",
@@ -23064,7 +23064,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIOjsKZP4IGZU="
 									},
-									"name": "viewMylist()",
+									"name": "checkMyApplications()",
 									"source": {
 										"$ref": "AAAAAAGIOmalrFMphEc="
 									},
@@ -23082,7 +23082,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGIOjsKZP4IGZU="
 									},
-									"name": "listApplications()",
+									"name": "checkApplications()",
 									"source": {
 										"$ref": "AAAAAAGIOmebIFPASyc="
 									},
@@ -27607,7 +27607,7 @@
 											"top": 76,
 											"width": 151,
 											"height": 13,
-											"text": "ApplicationCheckUI"
+											"text": "CheckApplicationUI"
 										},
 										{
 											"_type": "LabelView",
@@ -27711,7 +27711,7 @@
 											"top": 124,
 											"width": 151,
 											"height": 13,
-											"text": "+view_mylist()",
+											"text": "+checkMyApplications()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -27728,7 +27728,7 @@
 											"top": 139,
 											"width": 151,
 											"height": 13,
-											"text": "+select_application()",
+											"text": "+selectApplication()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -27924,7 +27924,7 @@
 											"top": 109,
 											"width": 132.38037109375,
 											"height": 13,
-											"text": "+listApplications()",
+											"text": "+checkApplications()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -28067,7 +28067,7 @@
 											"top": 212,
 											"width": 159.81494140625,
 											"height": 13,
-											"text": "StatisticCheckUI"
+											"text": "CheckStatisticUI"
 										},
 										{
 											"_type": "LabelView",
@@ -28171,7 +28171,7 @@
 											"top": 260,
 											"width": 159.81494140625,
 											"height": 13,
-											"text": "+print_applicantStatistic()",
+											"text": "+printApplicantStatistic()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -28188,7 +28188,7 @@
 											"top": 275,
 											"width": 159.81494140625,
 											"height": 13,
-											"text": "+print_applicationStatistic()",
+											"text": "+printApplicationStatistic()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -29456,7 +29456,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIOl6+h1KbIzI="
 							},
-							"name": "viewMylist"
+							"name": "checkMyApplications"
 						},
 						{
 							"_type": "UMLOperation",
@@ -30249,6 +30249,14 @@
 								"$ref": "AAAAAAGIQLaUKn0/RgA="
 							},
 							"name": "addApplication"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGITsMV04WmnEQ=",
+							"_parent": {
+								"$ref": "AAAAAAGIQLaUKn0/RgA="
+							},
+							"name": "listApplication"
 						}
 					]
 				},
@@ -46280,13 +46288,30 @@
 											"height": 13,
 											"text": "+addApplication()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGITsMV4YWpO30=",
+											"_parent": {
+												"$ref": "AAAAAAGIQromvNOLAyM="
+											},
+											"model": {
+												"$ref": "AAAAAAGITsMV04WmnEQ="
+											},
+											"font": "Arial;13;0",
+											"left": 1045,
+											"top": 791,
+											"width": 228.66796875,
+											"height": 13,
+											"text": "+listApplication()",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1040,
 									"top": 756,
 									"width": 238.66796875,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -46299,8 +46324,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 392,
-									"top": 593,
+									"left": 384,
+									"top": 553,
 									"width": 10,
 									"height": 10
 								},
@@ -46315,8 +46340,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 392,
-									"top": 593,
+									"left": 384,
+									"top": 553,
 									"width": 10,
 									"height": 10
 								}
@@ -48131,7 +48156,7 @@
 											"top": 1308,
 											"width": 231,
 											"height": 13,
-											"text": "+viewMylist()",
+											"text": "+checkMyApplications()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -50752,12 +50777,12 @@
 										"$ref": "AAAAAAGITIptdjtY5DI="
 									},
 									"font": "Arial;13;0",
-									"left": 930,
-									"top": 489,
+									"left": 927,
+									"top": 496,
 									"width": 56.900390625,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 1.4098544210620128,
+									"distance": 21.213203435596427,
 									"hostEdge": {
 										"$ref": "AAAAAAGITIptdjtcC+w="
 									},
@@ -51023,12 +51048,12 @@
 										"$ref": "AAAAAAGITIxZYFSAyCM="
 									},
 									"font": "Arial;13;0",
-									"left": 714,
+									"left": 728,
 									"top": 658,
 									"width": 29.021484375,
 									"height": 13,
-									"alpha": 1.6074220209754169,
-									"distance": 20.024984394500787,
+									"alpha": 1.6144842061152638,
+									"distance": 34.0147027033899,
 									"hostEdge": {
 										"$ref": "AAAAAAGITIxZYFSE1AA="
 									},
