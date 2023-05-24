@@ -9,5 +9,6 @@ class GeneralUser:public User{
     public:
         GeneralUser(string name, int resiNum, string ID, string PW);
         void addApplication(Recruitment &recruitment);
+        RecruitmentCollection* getRecruitmentCollection();
 };
 
