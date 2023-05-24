@@ -13,6 +13,6 @@ class Recruitment{
         void show_detail();
         void listRecruitment();
         void getRecruitment();
-        void addApplication();
+        void addApplication(GeneralUser &generaluser);
         
 };
