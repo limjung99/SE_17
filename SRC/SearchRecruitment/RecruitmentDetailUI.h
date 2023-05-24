@@ -2,9 +2,10 @@
 #include "GeneralUser.h"
 #include "Recruitment.h"
 
+// 채용지원 usecase
 class RecruitmentDetailUI {
+    private:
         ManageApplication* manageApplication;
     public:
-        void startInterface();
-        void applyRecruitment(GeneralUser &generaluser, Recuitment &recruitment);
+        void applyRecruitment(GeneralUser &generaluser, Recruitment &recruitment);
 };

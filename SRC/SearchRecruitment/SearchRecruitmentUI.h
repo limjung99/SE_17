@@ -1,9 +1,10 @@
 #include "CompanyUser.h"
 #include "SearchRecruitment.h"
 
+// 채용정보검색 usecase
 class SearchRecruitmentUI {
-        SearchRecruitment* SearchRecruitment;
+    private:
+        SearchRecruitment* searchRecruitment;
     public:
-        void startInterface();
-        void searchRecruitments(string companyName);
+        void searchRecruitments(CompanyUser &companyuser);
 };

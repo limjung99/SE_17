@@ -8,6 +8,7 @@ class CompanyUser:User{
         vector<Recruitment> myrecruitments; /* companyuser가 작성한 채용공고 vector */
         int myRecruitmentNumber; /* 채용공고 숫자 */
     public:
+        
         void listRecruitment();
         void addRecruitment(Recruitment *recruitment); /* companyuser가 작성한 recruitment를 member 배열에 포함시키는 함수*/
         int getRecruitmentsNumber();
