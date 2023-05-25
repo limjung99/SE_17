@@ -7,5 +7,5 @@ class RecruitmentDetailUI {
     private:
         ManageApplication* manageApplication;
     public:
-        void applyRecruitment(GeneralUser &generaluser, Recruitment &recruitment);
+        void applyRecruitment(GeneralUser* generaluser, int businessNum);
 };

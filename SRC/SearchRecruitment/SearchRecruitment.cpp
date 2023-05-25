@@ -1,9 +1,10 @@
+#include <iostream>
 #include "SearchRecruitment.h"
 #include "CompanyUser.h"
 #include "Recruitment.h"
 using namespace std;
 
-void SearchRecruitment::showRecruitment(CompanyUser &companyuser) {
+void SearchRecruitment::showRecruitment(string companyName) {
     // CompanyUser의 listRecruitment()을 호출하여 Recruitment 객체의 레퍼런스 리스트를 받아옴
     vector<Recruitment>& recruitmentList = companyuser.listRecruitment();
 
