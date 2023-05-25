@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "locale": "cpp",
+        "__locale": "cpp",
+        "__threading_support": "cpp",
+        "bitset": "cpp",
+        "compare": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "string": "cpp",
+        "type_traits": "cpp"
+    }
+}
