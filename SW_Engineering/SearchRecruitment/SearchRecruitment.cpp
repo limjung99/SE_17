@@ -14,6 +14,7 @@ SearchRecruitment::SearchRecruitment( vector<User*> userList){
 
 vector<Recruitment*> SearchRecruitment::searchRecruitment(User* user,string comName){
     vector<Recruitment*> recruitmentList;
+    /* user와 이름이 같은 인스턴스를 userList에서 찾고 ,해당 인스턴스가 소유한 recruitmentList 생성 */
     for(int i=0;i<userList->size();i++){
         string name = (*userList)[i]->getName();
         if(name == comName){

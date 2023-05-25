@@ -32,3 +32,17 @@ string CompanyUser::getName(){
 int CompanyUser::getNum(){
     return this->busiNum;
 }
+
+CompanyUser::CompanyUser(string id,string pw,string comName,int busiNum){
+    this->id = id;
+    this->pw = pw;
+    this->comName = comName;
+    this->busiNum = busiNum;
+}
+
+GeneralUser::GeneralUser(string id,string pw,string name,int resiNum){
+    this->id = id;
+    this->pw = pw;
+    this-> name =name;
+    this-> resiNum = resiNum;
+}

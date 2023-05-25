@@ -13,7 +13,7 @@ ApplyRecruitment::ApplyRecruitment(vector<User*> userList){
 }
 
 void ApplyRecruitment::applyRecruitment(User* user,int busiNum,vector<Recruitment*> recruitmentList){
-    
+    /* 특정 회사 이름으로 검색한 후, 회사의 채용 정보 리스트를 순회하면서 사업자 번호를 확인 후 등록하고 출력하는 함수 */
     for(int i=0;i<recruitmentList.size();i++){
         User* companyuser = recruitmentList[i]->getUser();
         if(companyuser->getNum() == busiNum){
